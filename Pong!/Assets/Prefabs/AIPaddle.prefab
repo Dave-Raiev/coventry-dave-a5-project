@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 4286890576617227368}
   - component: {fileID: 771651120340748887}
   - component: {fileID: 5586379873381309753}
-  - component: {fileID: 732119525731063974}
-  - component: {fileID: -3380139519979595293}
+  - component: {fileID: 1111172272113962705}
   m_Layer: 0
   m_Name: AIPaddle
   m_TagString: Untagged
@@ -159,8 +158,8 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &732119525731063974
+  m_Constraints: 4
+--- !u!114 &1111172272113962705
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,18 +168,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7779990195772643786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9120e7c1852bd5644bff4a3874546888, type: 3}
+  m_Script: {fileID: 11500000, guid: e8116a764b230cb449efc6b54f7ed983, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-3380139519979595293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7779990195772643786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9120e7c1852bd5644bff4a3874546888, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  ball: {fileID: 3373123063315766988, guid: dd5df863d89897f4399b519cd86171d0, type: 3}
